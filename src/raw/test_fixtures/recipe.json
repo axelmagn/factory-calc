@@ -1,0 +1,14 @@
+{
+	"ClassName": "Recipe_SteelBeam_C",
+	"FullName": "BlueprintGeneratedClass /Game/FactoryGame/Recipes/Constructor/Recipe_SteelBeam.Recipe_SteelBeam_C",
+	"mDisplayName": "Steel Beam",
+	"mIngredients": "((ItemClass=BlueprintGeneratedClass'\"/Game/FactoryGame/Resource/Parts/SteelIngot/Desc_SteelIngot.Desc_SteelIngot_C\"',Amount=4))",
+	"mProduct": "((ItemClass=BlueprintGeneratedClass'\"/Game/FactoryGame/Resource/Parts/SteelPlate/Desc_SteelPlate.Desc_SteelPlate_C\"',Amount=1))",
+	"mManufacturingMenuPriority": "7.000000",
+	"mManufactoringDuration": "4.000000",
+	"mManualManufacturingMultiplier": "1.000000",
+	"mProducedIn": "(/Game/FactoryGame/Buildable/Factory/ConstructorMk1/Build_ConstructorMk1.Build_ConstructorMk1_C,/Game/FactoryGame/Buildable/-Shared/WorkBench/BP_WorkBenchComponent.BP_WorkBenchComponent_C,/Script/FactoryGame.FGBuildableAutomatedWorkBench)",
+	"mRelevantEvents": "",
+	"mVariablePowerConsumptionConstant": "0.000000",
+	"mVariablePowerConsumptionFactor": "1.000000"
+}

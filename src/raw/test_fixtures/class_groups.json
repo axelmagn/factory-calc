@@ -1,0 +1,122 @@
+[
+	{
+		"NativeClass": "Class'/Script/FactoryGame.FGItemDescriptor'",
+		"Classes": [
+			{
+				"ClassName": "Desc_IronPlate_C",
+				"mDisplayName": "Iron Plate",
+				"mDescription": "Used for crafting.\r\nOne of the most basic parts.",
+				"mAbbreviatedDisplayName": "",
+				"mStackSize": "SS_BIG",
+				"mCanBeDiscarded": "True",
+				"mRememberPickUp": "False",
+				"mEnergyValue": "0.000000",
+				"mRadioactiveDecay": "0.000000",
+				"mForm": "RF_SOLID",
+				"mSmallIcon": "Texture2D /Game/FactoryGame/Resource/Parts/IronPlate/UI/IconDesc_IronPlates_64.IconDesc_IronPlates_64",
+				"mPersistentBigIcon": "Texture2D /Game/FactoryGame/Resource/Parts/IronPlate/UI/IconDesc_IronPlates_256.IconDesc_IronPlates_256",
+				"mCrosshairMaterial": "None",
+				"mDescriptorStatBars": "",
+				"mSubCategories": "",
+				"mMenuPriority": "0.000000",
+				"mFluidColor": "(B=0,G=0,R=0,A=0)",
+				"mGasColor": "(B=0,G=0,R=0,A=0)",
+				"mCompatibleItemDescriptors": "",
+				"mClassToScanFor": "None",
+				"mScannableType": "RTWOT_Default",
+				"mShouldOverrideScannerDisplayText": "False",
+				"mScannerDisplayText": "",
+				"mScannerLightColor": "(B=0,G=0,R=0,A=0)",
+				"mResourceSinkPoints": "6"
+			},
+			{
+				"ClassName": "Desc_IronIngot_C",
+				"mDisplayName": "Iron Ingot",
+				"mDescription": "Used for crafting.\r\nCrafted into the most basic parts.",
+				"mAbbreviatedDisplayName": "Iron",
+				"mStackSize": "SS_MEDIUM",
+				"mCanBeDiscarded": "True",
+				"mRememberPickUp": "False",
+				"mEnergyValue": "0.000000",
+				"mRadioactiveDecay": "0.000000",
+				"mForm": "RF_SOLID",
+				"mSmallIcon": "Texture2D /Game/FactoryGame/Resource/Parts/IronIngot/UI/IconDesc_IronIngot_64.IconDesc_IronIngot_64",
+				"mPersistentBigIcon": "Texture2D /Game/FactoryGame/Resource/Parts/IronIngot/UI/IconDesc_IronIngot_256.IconDesc_IronIngot_256",
+				"mCrosshairMaterial": "None",
+				"mDescriptorStatBars": "",
+				"mSubCategories": "",
+				"mMenuPriority": "0.000000",
+				"mFluidColor": "(B=0,G=0,R=0,A=0)",
+				"mGasColor": "(B=0,G=0,R=0,A=0)",
+				"mCompatibleItemDescriptors": "",
+				"mClassToScanFor": "None",
+				"mScannableType": "RTWOT_Default",
+				"mShouldOverrideScannerDisplayText": "False",
+				"mScannerDisplayText": "",
+				"mScannerLightColor": "(B=0,G=0,R=0,A=0)",
+				"mResourceSinkPoints": "2"
+			}
+		]
+	},
+	{
+		"NativeClass": "Class'/Script/FactoryGame.FGRecipe'",
+		"Classes": [
+			{
+				"ClassName": "Recipe_IronPlate_C",
+				"FullName": "BlueprintGeneratedClass /Game/FactoryGame/Recipes/Constructor/Recipe_IronPlate.Recipe_IronPlate_C",
+				"mDisplayName": "Iron Plate",
+				"mIngredients": "((ItemClass=BlueprintGeneratedClass'\"/Game/FactoryGame/Resource/Parts/IronIngot/Desc_IronIngot.Desc_IronIngot_C\"',Amount=3))",
+				"mProduct": "((ItemClass=BlueprintGeneratedClass'\"/Game/FactoryGame/Resource/Parts/IronPlate/Desc_IronPlate.Desc_IronPlate_C\"',Amount=2))",
+				"mManufacturingMenuPriority": "0.000000",
+				"mManufactoringDuration": "6.000000",
+				"mManualManufacturingMultiplier": "1.000000",
+				"mProducedIn": "(/Game/FactoryGame/Buildable/Factory/ConstructorMk1/Build_ConstructorMk1.Build_ConstructorMk1_C,/Game/FactoryGame/Buildable/-Shared/WorkBench/BP_WorkBenchComponent.BP_WorkBenchComponent_C,/Script/FactoryGame.FGBuildableAutomatedWorkBench)",
+				"mRelevantEvents": "",
+				"mVariablePowerConsumptionConstant": "0.000000",
+				"mVariablePowerConsumptionFactor": "1.000000"
+			}
+		]
+	},
+	{
+		"NativeClass": "Class'/Script/FactoryGame.FGBuildableWall'",
+		"Classes": [
+			{
+				"ClassName": "Build_Wall_Conveyor_8x4_01_C",
+				"mWidth": "800.000000",
+				"mHeight": "400.000000",
+				"mElevation": "0.000000",
+				"mAngularDepth": "0.000000",
+				"mWallType": "BWT_Normal",
+				"mAngledVariants": "",
+				"mDisplayName": "Conveyor Wall x3",
+				"mDescription": "Has 3 Conveyor Belt connections.\r\nSnaps to Foundations and other Walls.\r\n\r\nSize: 8m x 4m",
+				"MaxRenderDistance": "-1.000000",
+				"mHighlightVector": "(X=0.000000,Y=0.000000,Z=0.000000)",
+				"mAlternativeMaterialRecipes": "",
+				"mContainsComponents": "True",
+				"mBuildEffectSpeed": "0.000000",
+				"mAllowColoring": "True",
+				"mAllowPatterning": "True",
+				"mSkipBuildEffect": "False",
+				"mForceNetUpdateOnRegisterPlayer": "False",
+				"mToggleDormancyOnInteraction": "False",
+				"mIsMultiSpawnedBuildable": "False",
+				"mShouldShowHighlight": "False",
+				"mShouldShowAttachmentPointVisuals": "False",
+				"mCreateClearanceMeshRepresentation": "True",
+				"mCanContainLightweightInstances": "True",
+				"mAffectsOcclusion": "True",
+				"mOcclusionShape": "ROCS_Box",
+				"mScaleCustomOffset": "1.000000",
+				"mCustomScaleType": "ROCSS_Center",
+				"mOcclusionBoxInfo": "",
+				"mAttachmentPoints": "",
+				"mInteractingPlayers": "",
+				"mIsUseable": "False",
+				"mHideOnBuildEffectStart": "False",
+				"mShouldModifyWorldGrid": "True",
+				"mBlueprintBuildEffectID": "-1"
+			}
+		]
+	}
+]
